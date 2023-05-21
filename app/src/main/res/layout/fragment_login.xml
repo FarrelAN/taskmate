@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".fragments.LoginFragment"
+    android:orientation="vertical"
+    android:background="@drawable/background4">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginHorizontal="50dp"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center_vertical|center_horizontal"
+        android:gravity="center">
+
+        <ImageView
+            android:layout_width="170dp"
+            android:layout_height="40dp"
+            android:layout_marginStart="5dp"
+            android:layout_marginBottom="20dp"
+            android:background="@drawable/loginbutton">
+        </ImageView>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="15dp"
+            android:background="@drawable/rectangle_shape3"
+            android:orientation="vertical">
+
+            <EditText
+                android:id="@+id/signin_email"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="15dp"
+                android:gravity="left"
+                android:fontFamily="@font/urbanist_medium"
+                android:hint="Email"
+                android:textColorHint="#802A2E31"
+                android:textColor="@color/IMEblack"
+                android:inputType="textEmailAddress"
+                android:textSize="20dp"
+                android:backgroundTint="#CC2A2E31">
+            </EditText>
+
+            <EditText
+                android:id="@+id/signin_password"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="15dp"
+                android:gravity="left"
+                android:fontFamily="@font/urbanist_medium"
+                android:hint="Password"
+                android:textColorHint="#802A2E31"
+                android:textColor="@color/IMEblack"
+                android:ems="10"
+                android:inputType="textPassword"
+                android:textSize="20dp"
+                android:backgroundTint="#CC2A2E31"/>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="40dp"
+            android:layout_marginStart="5dp"
+            android:layout_gravity="center"
+            android:gravity="center">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="Don't have an account? "
+                android:fontFamily="@font/urbanist_semibold"
+                android:textColor="#992A2E31"
+                android:textSize="13dp"></TextView>
+
+            <TextView
+                android:id="@+id/signin_signup"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="Sign Up"
+                android:fontFamily="@font/urbanist_extrabold"
+                android:textColor="@color/IMEred"
+                android:textSize="13dp"></TextView>
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/signin_button"
+            android:layout_width="60dp"
+            android:layout_height="40.6dp"
+            android:layout_gravity="right"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/signin"
+            app:backgroundTint="@null">
+        </Button>
+
+    </LinearLayout>
+
+</FrameLayout>

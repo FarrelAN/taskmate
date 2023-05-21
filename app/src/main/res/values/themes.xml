@@ -1,0 +1,27 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.IMEOnApps" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/IMEblue</item>
+        <item name="colorPrimaryVariant">@color/secIMEblue</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/secIMEblue</item>
+        <item name="colorSecondaryVariant">@color/IMEred</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor">?attr/colorPrimaryVariant</item>
+        <!-- Customize your theme here. -->
+    </style>
+
+    <style name="ime_ftui_20">
+        <item name="android:textSize">50sp</item>
+        <item name="android:font">@font/urbanist_bold</item>
+        <item name="android:textColor">#2D61A6</item>
+    </style>
+
+    <style name="Button.LightBlue" parent="Widget.AppCompat.Button">
+        <item name="backgroundTint">@color/IMEwhite</item>
+    </style>
+
+</resources>

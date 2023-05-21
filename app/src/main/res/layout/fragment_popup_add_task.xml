@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragments.PopupAddTaskFragment"
+    android:background="@color/IMEwhite"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@color/IMEwhite">
+
+        <EditText
+            android:id="@+id/input_taskname"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="15dp"
+            android:layout_marginTop="20dp"
+            android:gravity="left"
+            android:layout_gravity="left"
+            android:fontFamily="@font/urbanist_semibold"
+            android:hint="Enter your task name"
+            android:textColorHint="#802A2E31"
+            android:backgroundTint="@color/IMEblack"
+            android:textColor="@color/IMEblack"
+            android:inputType="text"
+            android:textSize="20dp">
+
+        </EditText>
+
+        <EditText
+            android:id="@+id/input_taskdeadline"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="15dp"
+            android:gravity="left"
+            android:backgroundTint="@color/IMEblack"
+            android:textColorHint="#802A2E31"
+            android:layout_gravity="left"
+            android:fontFamily="@font/urbanist_semibold"
+            android:hint="Enter your task due date"
+            android:textColor="@color/IMEblack"
+            android:textSize="20dp"
+            android:clickable="true"
+            android:cursorVisible="false"
+            android:focusable="true"
+            android:focusableInTouchMode="true">
+        </EditText>
+
+        <ImageView
+            android:id="@+id/input_button"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_gravity="center"
+            android:background="@drawable/continue2"
+            app:backgroundTint="@color/IMEblue">
+        </ImageView>
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".fragments.SignUpFragment"
+    android:orientation="vertical"
+    android:background="@drawable/background4">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginHorizontal="50dp"
+            android:layout_marginTop="10dp"
+            android:layout_gravity="center_vertical|center_horizontal"
+            android:gravity="center">
+
+            <ImageView
+            android:layout_width="170dp"
+            android:layout_height="40dp"
+            android:layout_marginStart="5dp"
+                android:layout_marginBottom="20dp"
+            android:background="@drawable/signup2">
+            </ImageView>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="15dp"
+                android:background="@drawable/rectangle_shape3"
+                android:orientation="vertical">
+
+                <EditText
+                    android:id="@+id/signup_name"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="15dp"
+                    android:gravity="left"
+                    android:fontFamily="@font/urbanist_medium"
+                    android:hint="Name"
+                    android:textColor="@color/IMEblack"
+                    android:inputType="textEmailAddress"
+                    android:textSize="20dp"
+                    android:backgroundTint="#CC2A2E31"
+                    android:textColorHint="#802A2E31">
+                </EditText>
+
+                <EditText
+                    android:id="@+id/signup_status"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="15dp"
+                    android:gravity="left"
+                    android:fontFamily="@font/urbanist_medium"
+                    android:hint="Status"
+                    android:textColor="@color/IMEblack"
+                    android:inputType="textEmailAddress"
+                    android:textSize="20dp"
+                    android:backgroundTint="#CC2A2E31"
+                    android:textColorHint="#802A2E31">
+                </EditText>
+
+                <EditText
+                    android:id="@+id/signup_email"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="15dp"
+                    android:gravity="left"
+                    android:fontFamily="@font/urbanist_medium"
+                    android:hint="Email"
+                    android:textColor="@color/IMEblack"
+                    android:inputType="textEmailAddress"
+                    android:textSize="20dp"
+                    android:backgroundTint="#CC2A2E31"
+                    android:textColorHint="#802A2E31">
+                </EditText>
+
+                <EditText
+                    android:id="@+id/signup_password"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="15dp"
+                    android:gravity="left"
+                    android:fontFamily="@font/urbanist_medium"
+                    android:hint="Password"
+                    android:textColor="@color/IMEblack"
+                    android:ems="10"
+                    android:inputType="textPassword"
+                    android:textSize="20dp"
+                    android:backgroundTint="#CC2A2E31"
+                    android:textColorHint="#802A2E31"/>
+
+                <EditText
+                    android:id="@+id/signup_repassword"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="15dp"
+                    android:gravity="left"
+                    android:fontFamily="@font/urbanist_medium"
+                    android:hint="Retype Password"
+                    android:textColor="@color/IMEblack"
+                    android:ems="10"
+                    android:inputType="textPassword"
+                    android:textSize="20dp"
+                    android:backgroundTint="#CC2A2E31"
+                    android:textColorHint="#802A2E31"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginTop="20dp"
+                android:layout_marginStart="5dp"
+                android:layout_gravity="center"
+                android:gravity="center">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:text="Already Registered? "
+                    android:fontFamily="@font/urbanist_semibold"
+                    android:textColor="#992A2E31"
+                    android:textSize="13dp"></TextView>
+
+                <TextView
+                    android:id="@+id/signup_signin"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:text="Sign In"
+                    android:fontFamily="@font/urbanist_extrabold"
+                    android:textColor="@color/secIMEblue"
+                    android:textSize="13dp"></TextView>
+            </LinearLayout>
+
+            <ImageView
+                android:id="@+id/signup_button"
+                android:layout_width="60dp"
+                android:layout_height="40.6dp"
+                android:layout_gravity="right"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/signin"
+                app:backgroundTint="@null">
+            </ImageView>
+
+        </LinearLayout>
+
+</FrameLayout>

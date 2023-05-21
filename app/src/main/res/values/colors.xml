@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="IMEwhite">#F2F4F8</color>
+    <color name="IMEblue">#2A3789</color>
+    <color name="secIMEblue">#4A79B3</color>
+    <color name="IMEred">#CB3D2F</color>
+    <color name="IMEblack">#2A2E31</color>
+    <color name="IMEbeige">#FCF9D7</color>
+</resources>
