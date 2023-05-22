@@ -1,6 +1,6 @@
-# Watt To Do
+# Taskmate
 
-Watt To Do is an early prototype of a Kotlin-based Android to-do list app designed specifically for university students to efficiently track their deadlines. Powered by Google Firebase, this app provides a seamless and intuitive database experience.
+Taskmate is an early prototype of a Kotlin-based Android to-do list app designed specifically for university students to efficiently track their deadlines. Powered by Google Firebase, this app provides a seamless and intuitive database experience.
 
 # Features
 * User Account Management: Easily create and manage user accounts, allowing users to access personalized features and track their task progress.
